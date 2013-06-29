@@ -1,0 +1,106 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass [margin] {res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Arun Rathakrishnan\\[12.5pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{ 
+rathakrishnanarun@gmail.com \\
+https://github.com/r-arun  \\
+        (631) 944-0302 
+}
+\address{Department of Computer Science \\ Stony Brook University \\ NY 11790 \\
+         }
+
+ 
+\begin{resume} 
+ 
+\section{Education} 
+M.S in Computer Science \hfill Aug 2012 - Present \\
+Stony Brook University\\
+GPA: 3.5/4.0 
+
+B.E in Computer Science \& Engineering \hfill Jul 2006 - May 2010\\
+Anna University, Madras Institute of Technology \\
+GPA: 8.46/10.0
+\section{Experience}
+ Applications Developer, iNautix Technologies Limited \hfill Jun 2010 - Jul 2012
+% \begin{itemize} \itemsep -2pt  % reduce space between items
+% \item Worked on the NetX 360 Product suite
+% \item Authored a Web based tool for retrieving logs and generating reports.
+% \item Authored a suite of scripts for monitoring the operational activity.
+% \end{itemize}
+ 
+\section{Projects} 
+		Parallel Breadth First Search \hfill   Mar 2013
+                \begin{itemize} \itemsep -2pt
+                 \item An optimal parallel algorithm for Breadth First Search in Cilk model.
+                 \item An implementation of the algorithm in Cilk++.
+		 \end{itemize}
+
+		Parallel Connected Components Algorithms \hfill   Apr 2013
+                \begin{itemize} \itemsep -2pt
+				\item Github: https://github.com/fizzfaldt/cse638-hw/tree/master/hw2
+                 \item Parallel implementation of several algorithms for finding\\
+				 connected components in a graph, in Cilk++.
+		 \end{itemize}
+
+		Waiter Problem \hfill   May 2013
+                \begin{itemize} \itemsep -2pt
+		\item Github: https://github.com/r-arun/cse523
+                 \item Heuristics for balancing weights on a surface.
+		 \end{itemize}
+
+		Stackable Encrypted File System \hfill   May 2013
+                \begin{itemize} \itemsep -2pt
+                 \item wrapfs based encrypted file system.
+                 \item Encryption/Decryption is performed on file data in page buffers.
+		 \end{itemize}
+
+	   Decision Tree Classifier    \hfill         Nov 2012 
+                \begin{itemize} \itemsep -2pt
+		\item Github: https://github.com/r-arun/AI-project
+              \item For classification of data based on approval of loan to applicants.
+		 \end{itemize}
+
+		Vocabulary Builder \hfill   May 2011
+                \begin{itemize} \itemsep -2pt
+		\item Github: https://github.com/r-arun/word
+                 \item An application for improving and testing your vocabulary for GRE.
+		 \end{itemize}
+
+               An Implementation of grep    \hfill         Apr 2008 
+                \begin{itemize} \itemsep -2pt
+              \item Extends grep to support sub-expressions.            
+                \item Support for both NFA and Minimized DFA representations.
+
+		 \end{itemize}
+
+	
+%Tabulate Computer Skills; p{3 in}% defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{rl p{3in}}
+   Advanced Level & C, Python \\
+   Intermediate Level & Java, STL, vim \\
+   Basic Level & JavaScript, C++, Perl, git, LaTeX, bash, sed, Eclipse \\
+\end{tabular}
+
+
+\section{Co-curricular Activities}
+\begin{itemize} \itemsep -2pt
+\item Member of teams that qualified for ACM ICPC Regionals in 2012 (Greater New York Region - 9th place) and 2008 (Asia - Kerala - 16th place).
+\item Among the Top 5 teams in the onsite programming contest at Kurukshetra, a national level symposium at College of Engineering, Anna University.
+\end{itemize}
+
+\end{resume} 
+\end{document} 
+
+
+
