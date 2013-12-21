@@ -1,0 +1,59 @@
+Arun Rathakrishnan
+rathakrishnanarun@gmail.com
+https://github.com/r-arun
+(631) 944-0302
+
+Education:
+*M.S in Computer Science (Aug 2012 - Dec 2013)
+Stony Brook University
+GPA: 3.5/4.0
+
+*B.E in Computer Science & Engineering Jul 2006 - May 2010
+Anna University, Madras Institute of Technology 
+GPA: 8.46/10.0 
+
+Work Experience:
+*Experience Applications Developer, iNautix Technologies Limited Jun 2010 - Jul 2012
+*Teaching Assistant, Department of Computer Science, Summer 2013
+
+Projects:
+1. Parallel Breadth First Search Mar 2013
+-> An optimal parallel algorithm for Breadth First Search in Cilk model.
+-> An implementation of the algorithm in Cilk++.
+-> Github: https://github.com/fizzfaldt/cse638-hw/tree/master/hw1
+
+2. Parallel Connected Components Algorithms
+-> Parallel implementation of several algorithms for finding connected components
+-> Github: https://github.com/fizzfaldt/cse638-hw/tree/master/hw2
+   in a graph, in Cilk++. 
+
+3. Waiter Problem May 2013
+-> Heuristics for balancing weights on a surface. 
+-> Github: https://github.com/r-arun/cse523 
+
+4. Decision Tree Classifier Nov 2012
+-> For classification of data based on approval of loan to applicants. 
+-> Github: https://github.com/r-arun/AI-project 
+
+5. Vocabulary Builder May 2011
+-> An application for improving and testing your vocabulary for GRE. 
+-> Github: https://github.com/r-arun/word 
+
+6. An Implementation of grep 
+-> Extends grep to support sub-expressions. 
+-> Support for both NFA and Minimized DFA representations.
+
+7.Encrypted File System May 2013 Stackable 
+-> wrapfs based encrypted file system. 
+-> Encryption/Decryption is performed on file data in page buffers.
+
+Computer Skills
+Advanced Level: C, Java
+Intermediate Level: Python, STL, vim
+Basic Level: JavaScript, C++, Perl, git, LaTeX, bash, sed, Eclipse
+
+Co-curricular Activities
+-> Member of teams that qualified for ACM ICPC Regionals in 2012 (Greater New York Region - 9th place) and 2008 (Asia - Kerala - 16th place).
+
+Keywords:
+java c c++ cpp perl python vim vi stl bash git sed javascript js ms masters computer science cse github algorithm datastructure parallel algorithms full time
